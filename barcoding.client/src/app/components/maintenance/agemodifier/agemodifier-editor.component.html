@@ -1,0 +1,17 @@
+<form #form="ngForm" [formGroup]="entityForm" novalidate (ngSubmit)="save()" [ngClass]="{'form-field--unfilled form-field--readonly' : !isEditMode}" class="flex-col" autocomplete="off">
+
+    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="1em">
+        <mat-form-field [floatLabel]="floatLabels" fxFlex>
+            <mat-label>{{'agemodifiers.editor.Description' | translate}}</mat-label>
+            <input matInput formControlName="description" [readonly]="!isEditMode" />
+        </mat-form-field>
+    </div>
+
+    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="1em">
+
+        <div fxFlex.gt-sm="0 1 calc(50% - 0.5em)">
+            <mat-checkbox *ngIf="isEditMode" formControlName="isEnabled">{{'agemodifiers.editor.Enabled' | translate}}</mat-checkbox>
+        </div>
+
+    </div>
+</form>

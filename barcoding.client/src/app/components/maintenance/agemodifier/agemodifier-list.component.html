@@ -1,0 +1,44 @@
+<app-page-header title="AgeModifiers"></app-page-header>
+<div [@fadeInOut] class="page-content">
+
+    <div class="search-box">
+        <mat-form-field>
+            <input matInput (keyup)="applyFilter($any($event.target).value)" placeholder="{{'agemodifiers.management.Search' | translate}}">
+        </mat-form-field>
+    </div>
+
+    <div class="mat-elevation-z8">
+        <mat-progress-bar *ngIf="loadingIndicator" mode="query"></mat-progress-bar>
+        <mat-table [dataSource]="dataSource" matSort>
+
+            <ng-container matColumnDef="description">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> {{'agemodifiers.management.Description' | translate}} </mat-header-cell>
+                <mat-cell *matCellDef="let row"> {{row.description}} </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="enabled">
+                <mat-header-cell *matHeaderCellDef> {{'agemodifiers.editor.Enabled' | translate}} </mat-header-cell>
+                <mat-cell *matCellDef="let row"> {{row.enabled ? 'Enabled' : 'Disabled' }} </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="actions">
+                <mat-header-cell *matHeaderCellDef fxFlex="250px">
+                    <button mat-button color="primary" matTooltip="{{'agemodifiers.management.New' | translate}}" (click)="edit()">
+                        <mat-icon class="mat-button-icon">add</mat-icon>{{'agemodifiers.management.New' | translate}}
+                    </button>
+                </mat-header-cell>
+                <mat-cell *matCellDef="let row" fxFlex="250px">
+                    <button mat-icon-button matTooltip="{{'agemodifiers.management.Edit' | translate}}" (click)="edit(row)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                </mat-cell>
+            </ng-container>
+
+            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: displayedColumns;">
+            </mat-row>
+        </mat-table>
+
+        <mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BA82DE1-6406-447D-820F-B30C45F4A7F2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barcoding.Core", "Barcoding.Core\Barcoding.Core.csproj", "{D41DED67-ACC0-4DA9-A60F-A88C66D6B785}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "barcoding.client", "barcoding.client\barcoding.client.esproj", "{AB8F94AC-4AC9-4F93-94B2-F0598DDBF956}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barcoding.Server", "Barcoding.Server\Barcoding.Server.csproj", "{862D9AFD-03DB-4E09-83AD-6AF3A0388AB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D41DED67-ACC0-4DA9-A60F-A88C66D6B785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41DED67-ACC0-4DA9-A60F-A88C66D6B785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41DED67-ACC0-4DA9-A60F-A88C66D6B785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41DED67-ACC0-4DA9-A60F-A88C66D6B785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8F94AC-4AC9-4F93-94B2-F0598DDBF956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8F94AC-4AC9-4F93-94B2-F0598DDBF956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8F94AC-4AC9-4F93-94B2-F0598DDBF956}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AB8F94AC-4AC9-4F93-94B2-F0598DDBF956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8F94AC-4AC9-4F93-94B2-F0598DDBF956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8F94AC-4AC9-4F93-94B2-F0598DDBF956}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{862D9AFD-03DB-4E09-83AD-6AF3A0388AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862D9AFD-03DB-4E09-83AD-6AF3A0388AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862D9AFD-03DB-4E09-83AD-6AF3A0388AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862D9AFD-03DB-4E09-83AD-6AF3A0388AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE13411E-AFBF-47D7-9B88-474393517A24}
+	EndGlobalSection
+EndGlobal

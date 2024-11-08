@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>{{entityName ? ('agemodifiers.management.EditEntity' | translate:entityName) : ('agemodifiers.management.New' | translate)}}</h1>
+<div mat-dialog-content>
+    <agemodifier-editor [entity]="data.entity"  [isEditMode]="true"></agemodifier-editor>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button (click)="editEntity.save();" color="primary">Save</button>
+    <button mat-raised-button (click)="cancel()" color="warn">Cancel</button>
+</div>

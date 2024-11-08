@@ -1,0 +1,21 @@
+<div class="page-content flex fill center-center">
+  <div class="card mat-elevation-z6">
+    <div class="card-header mat-mdc-card-title">
+      <span>{{'mainMenu.Login' | translate}}</span>
+    </div>
+    <div class="card-content">
+      <app-login-control [isModal]="false" (enterKeyPress)="loginControl.login()"></app-login-control>
+    </div>
+    <div class="card-actions">
+      <div class="flex">
+        <button mat-raised-button color="primary" [disabled]="loginControl.isLoading" (click)="loginControl.login()">
+          <mat-spinner *ngIf="loginControl.isLoading && !loginControl.isExternalLogin" [diameter]="20"></mat-spinner>{{'mainMenu.Login' | translate | uppercase}}
+        </button>
+        <div class="flex-auto"></div>
+        <a mat-button routerLink="/recoverpassword">FORGOT PASSWORD</a>
+        <mat-divider [vertical]="true"></mat-divider>
+        <a mat-button routerLink="/register">REGISTER</a>
+      </div>      
+    </div>
+  </div>
+</div>

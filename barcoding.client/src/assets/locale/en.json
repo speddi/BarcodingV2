@@ -1,0 +1,855 @@
+{
+  "app": {
+    "Welcome": "Welcome",
+    "Notifications": "Notifications",
+    "New": "New"
+  },
+  "form": {
+    "ErrorCaption": "Missing Information",
+    "ErrorMessage": "You have entered invalid or incomplete information. Please correct any errors and try again."
+  },
+  "mainMenu": {
+    "Home": "Home",
+    "Appointments": "Appointments",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Orders": "Orders",
+    "Admin": "Admin",
+    "Users": "Users",
+    "Roles": "Roles",
+    "About": "About",
+    "Logout": "Logout",
+    "Login": "Login",
+    "Account": "Account",
+    "UserAccount": "User Account",
+    "Profile": "Profile",
+    "Settings": "Settings",
+    "Theme": "Select a theme",
+    "Status": "Status",
+    "Patient": "Patient",
+    "Tissue": "Tissue",
+    "UpdateSample": "Update Sample",
+    "TransferTissues": "Transfer Tissues",
+    "Diagnosis": "Diagnosis",
+    "FilingShipment": "Filing & Shipment",
+    "Reports": "Reports",
+    "LegacyReports": "Legacy Reports",
+    "Filing": "Filing",
+    "PreShipment": "Mark Pending Shipment",
+    "PendingShipment": "Pending Shipment Lists",
+    "Shipment": "Shipment",
+    "CompilationReport": "Compilation Report",
+    "DailyTissueList": "Daily Tissue List",
+    "FluidReport": "Fluid Report",
+    "InvestigatorInventory": "Investigator Inventory",
+    "ProcedureReport": "Procedure",
+    "LegacyProcedureReport": "Legacy Procedure Report",
+    "ProtocolReport": "Protocol",
+    "GenericReport": "Generic Report",
+    "LegacyCompilationReport": "Legacy Compilation Report",
+    "LegacyDailyTissueList": "Legacy Daily Tissue List",
+    "LegacyFluidReport": "Legacy Fluid Report",
+    "LegacyInvestigatorInventory": "Legacy Investigator Inventory",
+    "LegacyGenericReport": "Legacy Generic Report",
+    "PHBIReport": "PHBI Report",
+    "BreastSporeReport": "Breast Spore Report",
+    "OvarianSporeReport": "Ovarian Spore Report",
+    "PancreasSporeReport": "Pancreas Spore Report",
+    "CustomProtocolReport": "Custom Protocol Report",
+    "SignOffQc": "Sign-Off QC",
+    "PrintBarcode": "Print Barcode",
+    "Maintenance": "Maintenance",
+    "Investigators": "Investigators",
+    "AgeModifiers": "Age Modifiers",
+    "AmountSizeTypes": "AmountSize Types",
+    "Genders": "Genders",
+    "Hospitals": "Hospitals",
+    "ProcedureTypes": "Procedure Types",
+    "SpecimenContainers": "Specimen Containers",
+    "Statuses": "Statuses",
+    "Metastaticsites": "Metastaticsites",
+    "Freezers": "Freezers",
+    "Racks": "Racks",
+    "Levels": "Levels",
+    "Races": "Races",
+    "Ethnicities": "Ethnicities",
+    "Preparations": "Preparations",
+    "ConsVersions": "Consent Versions",
+    "ConsDenyReasons": "Consent Deny Reasons",
+    "Search": "Search",
+    "TissueType": "Tissue Type",
+    "TissueStatus": "Tissue Status"
+  },
+  "pageHeader": {
+    "Dashboard": "Dashboard",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Orders": "Orders",
+    "NotFound": "Not Found",
+    "About": "About",
+    "Settings": "Settings",
+    "Users": "User Management",
+    "Roles": "Role Management",
+    "Status": "Status",
+    "Patient": "Patient",
+    "Tissue": "Tissue",
+    "UpdateSample": "Update Sample",
+    "TransferTissues": "Transfer Tissues",
+    "Filing": "Filing",
+    "PreShipment": "Mark Pending Shipment",
+    "PendingShipment": "Pending Shipment Lists",
+    "Shipment": "Shipment",
+    "CompilationReport": "Compilation Report",
+    "DailyTissueList": "Daily Tissue List Report",
+    "FluidReport": "Fluid Report",
+    "InvestigatorInventory": "Investigator Inventory Report",
+    "ProcedureReport": "Procedure Report",
+    "LegacyProcedureReport": "Legacy Procedure Report",
+    "ProtocolReport": "Protocol Report",
+    "GenericReport": "Generic Report",
+    "LegacyCompilationReport": "Legacy Compilation Report",
+    "LegacyDailyTissueList": "Legacy Daily Tissue List",
+    "LegacyFluidReport": "Legacy Fluid Report",
+    "LegacyInvestigatorInventory": "Legacy Investigator Inventory",
+    "LegacyGenericReport": "Legacy Generic Report",
+    "PHBIReport": "PHBI Report",
+    "BreastSporeReport": "Breast Spore Report",
+    "OvarianSporeReport": "Ovarian Spore Report",
+    "PancreasSporeReport": "Pancreas Spore Report",
+    "CustomProtocolReport": "Custom Protocol Report",
+    "SignOffQc": "Sign-Off QC",
+    "PrintBarcode": "Print Barcode",
+    "Investigators": "Investigators",
+    "AgeModifiers": "Age Modifiers",
+    "AmountSizeTypes": "AmountSize Types",
+    "Genders": "Genders",
+    "Hospitals": "Hospitals",
+    "ProcedureTypes": "Procedure Types",
+    "SpecimenContainers": "SpecimenContainers",
+    "Statuses": "Statues",
+    "Metastaticsites": "Metastaticsites",
+    "Diagnosis": "Diagnosis",
+    "Freezers": "Freezers",
+    "Racks": "Racks",
+    "Levels": "Levels",
+    "Races": "Races",
+    "Ethnicities": "Ethnicities",
+    "Preparations": "Preparations",
+    "ConsVersions": "Consent Versions",
+    "ConsDenyReasons": "Consent Deny Reasons",
+    "TissueType": "Search by tissue type",
+    "TissueStatus": "Search by tissue status"
+  },
+  "home": {
+    "NoWidgets1": "You have no widgets displayed. Goto",
+    "NoWidgets2": "to configure available widgets",
+    "StatisticsTitle": "Some Important Stuff"
+  },
+  "notFound": {
+    "404": "404",
+    "pageNotFound": "The page you are looking for does not exist",
+    "backToHome": "Back to home"
+  },
+  "settings": {
+    "tab": {
+      "Profile": "Profile",
+      "Preferences": "Preferences",
+      "Users": "Users",
+      "Roles": "Roles"
+    },
+    "description": {
+      "UserProfile": "Edit your profile",
+      "UserPreferences": "Edit your preferences",
+      "UserDepartments": "User Departments",
+      "UsersManagement": "Manage all users",
+      "RolesManagement": "Manage user roles"
+    }
+  },
+  "preferences": {
+    "SavePreferences": "Save preferences?",
+    "SavePreferencesHint": "Save preferences to the cloud (synchronized between devices)",
+    "ReloadPreferences": "Reload preferences?",
+    "ReloadPreferencesHint": "Load saved preferences (local changes are discarded)",
+    "ResetPreferences": "Reset default preferences?",
+    "ResetPreferencesHint": "Reset preferences to application defaults (local only)",
+    "Language": "Language",
+    "English": "English",
+    "French": "French",
+    "German": "German",
+    "Portuguese": "Portuguese",
+    "Arabic": "Arabic",
+    "Korean": "Korean",
+    "LanguageHint": "Select the preferred language for your account",
+    "HomePage": "Home Page",
+    "Dashboard": "Dashboard",
+    "Customers": "Customers",
+    "Products": "Products",
+    "Orders": "Orders",
+    "About": "About",
+    "Settings": "Settings",
+    "HomePageHint": "Select the default page to navigate to on login",
+    "DashboardStatistics": "Dashboard Statistics",
+    "DashboardStatisticsHint": "Show demo graph widget on the dashboard",
+    "DashboardNotifications": "Dashboard Notifications",
+    "DashboardNotificationsHint": "Show application notifications on the dashboard",
+    "DashboardTodo": "Dashboard Todo",
+    "DashboardTodoHint": "Shows demo todo widget on the dashboard",
+    "DashboardBanner": "Dashboard Banner",
+    "DashboardBannerHint": "Show demo information banner widget on the dashboard"
+  },
+  "users": {
+    "management": {
+      "Search": "Search for user",
+      "NewUser": "New User",
+      "Edit": "Edit User",
+      "Delete": "Delete User",
+      "EditUser": "Edit User \"{{name}}\"",
+      "Title": "Title",
+      "UserName": "User Name",
+      "FullName": "Full Name",
+      "Email": "Email",
+      "Roles": "Roles",
+      "PhoneNumber": "Phone Number"
+    },
+    "editor": {
+      "JobTitle": "Job Title",
+      "UserName": "User Name",
+      "UserNameRequired": "User name is required (minimum of 2 and maximum of 200 characters)",
+      "Password": "Password",
+      "PasswordHint": "Your password is required when changing user name",
+      "CurrentPasswordRequired": "Current password is required",
+      "Email": "Email",
+      "EmailRequired": "Email address is required (maximum of 200 characters)",
+      "InvalidEmail": "Specified email is not valid",
+      "ChangePassword": "Change Password",
+      "CurrentPassword": "Current Password",
+      "NewPassword": "New Password",
+      "NewPasswordRequired": "New password is required",
+      "NewPasswordRules": "The new password must contain at least: one uppercase letter, one lowercase letter, one digit, and any special character",
+      "ConfirmPassword": "Confirm Password",
+      "ConfirmationPasswordRequired": "Confirmation password is required",
+      "PasswordMismatch": "New password and confirmation password do not match",
+      "Roles": "Roles",
+      "FullName": " Full Name",
+      "RoleRequired": " Role is required",
+      "PhoneNumber": "Phone Number",
+      "Enabled": "Enabled",
+      "Unblock": "Unblock",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "roles": {
+    "management": {
+      "Search": "Search for role...",
+      "NewRole": "New Role",
+      "Edit": "Edit",
+      "Details": "Details",
+      "Delete": "Delete",
+      "RoleDetails": "Role Details \"{{name}}\"",
+      "EditRole": "Edit Role \"{{name}}\"",
+      "Name": "Name",
+      "Description": "Description",
+      "Users": "Users"
+    },
+    "editor": {
+      "Name": "Name:",
+      "Description": "Description:",
+      "RoleNameRequired": "Role name is required (minimum of 2 and maximum of 200 characters)",
+      "SelectAll": "Select all",
+      "SelectNone": "Select none",
+      "Close": "Close",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "notifications": {
+    "Delete": "Delete notification",
+    "Pin": "Pin notification",
+    "Date": "Date",
+    "Notification": "Notification"
+  },
+  "todoDemo": {
+    "management": {
+      "Search": "Search for task...",
+      "HideCompleted": "Hide Completed",
+      "ShowCompleted": "Show Completed",
+      "AddTask": "Add Task",
+      "Delete": "Delete task",
+      "Important": "Mark as important",
+      "Task": "Task",
+      "Description": "Description"
+    },
+    "editor": {
+      "NewTask": "New Task",
+      "Name": "Name",
+      "TaskNameRequired": "Task name is required",
+      "Description": "Description",
+      "Important": "Mark as important",
+      "AddTask": "Add Task"
+    }
+  },
+  "commands": {
+    "Edit": "Edit",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "Reset": "Reset",
+    "Reload": "Reload"
+  },
+  "maintenance": {
+    "status": {
+      "Search": "Search for status...",
+      "NewStatus": "New Status",
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "EditStatus": "Edit Status",
+      "Description": "Description",
+      "Enabled": "Enabled"
+    },
+    "editor": {
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "patient": {
+    "Code": "KID#",
+    "Enabled": "Enabled",
+    "Search": "Search",
+    "Race": "Race",
+    "RaceSubCategory": "Race SubCategory",
+    "Gender": "Gender",
+    "Ethnicity": "Ethnicity",
+    "EthnicitySubCategory": "Ethnicity SubCategory",
+    "Anonymous": "Anonymous",
+    "ConsentDate": "Consent Date",
+    "ConsentedBy": "Consented By",
+    "ConsentVersion": "Version",
+    "ConsentExtraTissue": "Extra Tissue, Blood, and/or Fluids",
+    "ConsentGeneticStudies": "Genetic Studies of Inheritable Diseases",
+    "ConsentBlood": "Blood",
+    "ConsentUrine": "Urine",
+    "ConsentSaliva": "Saliva",
+    "ConsentMedicalInformation": "Medical Information",
+    "ConsentGWAS": "GWAS",
+    "ConsentHIPAA": "HIPAA",
+    "ConsentTissueDiscardDate": "Tissue Discard Date",
+    "ConsentQCDiscardDate": "QC Discard Date",
+    "ConsentFreshTissueDiscardDate": "Fresh Tissue Discard Date",
+    "UnableToConsent": "Reason",
+    "ConsentMailDate": "Date Consent Provided",
+    "editor": {
+      "CodeRequired": "KID# is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving...",
+      "NewPatient": "New Patient"
+    }
+  },
+  "tissue": {
+    "Code": "KID#",
+    "Enabled": "Enabled",
+    "TPNumber": "TP Number",
+    "Search": "Search",
+    "Hospital": "Hospital",
+    "ProcedureType": "Procedure Type",
+    "ProcedureDate": "Procedure Date",
+    "ResectedTime": "Resected Time",
+    "DeathDate": "Death Date",
+    "DeathTime": "Death Time",
+    "CaseNotes": "Case Notes",
+    "AmountSize": "Amt/Size",
+    "AmountSizeType": "Amt/Size Type",
+    "AgeModifier": "Age Modifier",
+    "Preparation": "Initial Preparation",
+    "PreparationDetail": "Initial Prep. Detail",
+    "StoragePreparation": "Storage Preparation",
+    "StoragePreparationDetail": "Storage Prep. Detail",
+    "FilingDate": "Filing Date",
+    "Status": "Status",
+    "StatusDate": "Status Date",
+    "Investigator": "Investigator",
+    "InvestigatorRequest": "Investigator Request",
+    "ProcessingDate": "Process Date",
+    "ProcessingTime": "Process Time",
+    "HPM": "HPM",
+    "PatientAge": "Patient Age",
+    "TissueArea": "Tissue Area",
+    "FreezerLocation": "Freezer Location",
+    "SampleSequence": "Sample",
+    "SpecimenContainer": "Specimen Container",
+    "PrePostTreatment": "Pre-Post Treatment",
+    "Year": "Year",
+    "Month": "Month",
+    "editor": {
+      "EditTissue": "Edit Tissue",
+      "EditSample": "Edit Sample",
+      "NewTissue": "New Tissue",
+      "NewSample": "New Sample",
+      "PrintTissue": "Print Tissue",
+      "PrintLabel": "Print Label",
+      "EditGrossDiagnosis": "Edit Gross Diagnosis",
+      "EditQCDiagnosis": "Edit QC Diagnosis",
+      "Vial": "Vial",
+      "Cassette": "Cassette",
+      "DisabledSample": "Disabled Sample"
+    },
+    "dialog": {
+      "EditTissue": "Edit Tissue \"{{name}}\""
+    }
+  },
+  "sampleDiagnosis": {
+    "Malignant": "Malignant",
+    "NonMalignant": "Non Malignant",
+    "AnatomicSite": "Anatomic Site",
+    "TissueType": "Tissue Type",
+    "Diagnosis": "Diagnosis",
+    "DiagnosisSubClass": "Diagnosis SubClass",
+    "DiagnosisModifier": "Diagnosis Modifier",
+    "MetastaticSite": "Site Metastacized To",
+    "Primary": "Primary",
+    "Metastatic": "Metastatic",
+    "Comment": "Comment",
+    "PercentTumor": "% Tumor",
+    "PercentNecoris": "% Necrosis",
+    "PercentMucin": "% Mucin",
+    "PercentFibrosis": "% Fibrosis",
+    "PercentTumorNucleus": "% Tumor Nucleus",
+    "TumorNormalBorder": "Tumor/Normal Border?"
+  },
+  "filing": {
+    "TPNumber": "TP Number",
+    "Search": "Search"
+  },
+  "reports": {
+    "Year": "Year",
+    "Month": "Month",
+    "TissueArea": "Tissue Area",
+    "Date": "Date",
+    "StartDate": "Start Date",
+    "EndDate": "End Date",
+    "Investigator": "Investigator",
+    "Investigators": "Investigators",
+    "ProcedureType": "Procedure Type",
+    "DateFilterType": "Date Filter Type",
+    "Search": "Search",
+    "CustomProtocols": "Custom Protocols"
+  },
+  "printDialog": {
+    "SelectLabelType": "Select Label Type",
+    "noOfLabels": "Number Of Labels"
+  },
+  "printBarcode": {
+    "TPNumber": "TP Number",
+    "Search": "Search"
+  },
+  "freezerLocation": {
+    "Freezer": "Freezer",
+    "Rack": "Rack",
+    "Level": "Level"
+  },
+  "exportTable": {
+    "id": "Tissue Id",
+    "patientId": "PatientId",
+    "sampleId": "SampleId",
+    "tissueSampleSequence": "TP Number",
+    "patientAge": "Age",
+    "procedureType": "Procedure",
+    "procedureDate": "Proc. Date",
+    "resectedTime": "Resected Time",
+    "amountSize": "Amount/Size",
+    "preparation": "Preparation",
+    "preparationDetail": "Preparation Detail",
+    "status": "Status",
+    "statusDate": "Status Date",
+    "investigator": "Investigator",
+    "processingDate": "Process Date",
+    "processingTime": "Process Time",
+    "location": "Location",
+    "grossMalignant": "Gross Malignant",
+    "grossPrimary": "Gross Primary",
+    "grossMetastaticSite": "Gross MetastaticSite",
+    "grossAnatomicSite": "Gross AnatomicSite",
+    "grossTissueType": "Gross TissueType",
+    "grossDiagnosis": "Gross Diagnosis",
+    "grossDiagnosisModifier": "Gross DiagnosisMod",
+    "grossDiagnosisSubClass": "Gross Diagnosis SubClass",
+    "qCMalignant": "QC Malignant",
+    "qCPrimary": "QC Primary",
+    "qCMetastaticSite": "QC MetastaticSite",
+    "qCAnatomicSite": "QC AnatomicSite",
+    "qCTissueType": "QC TissueType",
+    "qCDiagnosis": "QC Diagnosis",
+    "qCDiagnosisModifier": "QC DiagnosisMod",
+    "qCDiagnosisSubClass": "QC Diagnosis SubClass",
+    "percentTumor": "% T",
+    "percentNecrosis": "% N",
+    "percentMucin": "% M",
+    "percentFibrosis": "% F",
+    "percentTumorNucleus": "% TN",
+    "tumorNormalBorder": "TNB",
+    "freezerLocation": "Freezer"
+  },
+  "investigators": {
+    "management": {
+      "Search": "Search for investigator",
+      "New": "New Investigator",
+      "NewRequest": "New Request",
+      "Edit": "Edit Investigator",
+      "EditEntity": "Edit Investigator \"{{name}}\"",
+      "FirstName": "FirstName",
+      "LastName": "Last Name",
+      "InvestigatorCode": "Investigator Code",
+      "FullName": "Full/Display Name"
+    },
+    "editor": {
+      "FirstName": "FirstName",
+      "LastName": "Last Name",
+      "InvestigatorCode": "Investigator Code",
+      "InvestigatorRequest": "Request",
+      "FullName": "Full/Display Name",
+      "FullNameRequired": "Investigator full name is required (minimum of 2 and maximum of 125 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "agemodifiers": {
+    "management": {
+      "Search": "Search for agemodifier",
+      "New": "New AgeModifier",
+      "NewRequest": "New Request",
+      "Edit": "Edit AgeModifier",
+      "EditEntity": "Edit AgeModifier \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "amountsizetypes": {
+    "management": {
+      "Search": "Search for amountsizetype",
+      "New": "New AmountSizeType",
+      "NewRequest": "New Request",
+      "Edit": "Edit AmountSizeType",
+      "EditEntity": "Edit AmountSizeType \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "genders": {
+    "management": {
+      "Search": "Search for gender",
+      "New": "New Gender",
+      "NewRequest": "New Request",
+      "Edit": "Edit Gender",
+      "EditEntity": "Edit Gender \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "hospitals": {
+    "management": {
+      "Search": "Search for hospital",
+      "New": "New Hospital",
+      "NewRequest": "New Request",
+      "Edit": "Edit Hospital",
+      "EditEntity": "Edit Hospital \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "proceduretypes": {
+    "management": {
+      "Search": "Search for proceduretype",
+      "New": "New ProcedureType",
+      "NewRequest": "New Request",
+      "Edit": "Edit ProcedureType",
+      "EditEntity": "Edit ProcedureType \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "specimencontainers": {
+    "management": {
+      "Search": "Search for specimencontainer",
+      "New": "New SpecimenContainer",
+      "NewRequest": "New Request",
+      "Edit": "Edit SpecimenContainer",
+      "EditEntity": "Edit SpecimenContainer \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "statuses": {
+    "management": {
+      "Search": "Search for status",
+      "New": "New Status",
+      "NewRequest": "New Request",
+      "Edit": "Edit Status",
+      "EditEntity": "Edit Status \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "metastaticsites": {
+    "management": {
+      "Search": "Search for metastaticsite",
+      "New": "New Metastaticsite",
+      "NewRequest": "New Request",
+      "Edit": "Edit Metastaticsites",
+      "EditEntity": "Edit Metastaticsites \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "freezers": {
+    "management": {
+      "Search": "Search for freezer",
+      "New": "New Freezer",
+      "NewRequest": "New Request",
+      "Edit": "Edit Freezer",
+      "EditEntity": "Edit Freezer \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "racks": {
+    "management": {
+      "Search": "Search for rack",
+      "New": "New Rack",
+      "NewRequest": "New Request",
+      "Edit": "Edit Rack",
+      "EditEntity": "Edit Rack \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "levels": {
+    "management": {
+      "Search": "Search for level",
+      "New": "New Level",
+      "NewRequest": "New Request",
+      "Edit": "Edit Level",
+      "EditEntity": "Edit Level \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "races": {
+    "management": {
+      "Search": "Search for race",
+      "New": "New Race",
+      "NewRaceSubcategory": "New Race Subcategory",
+      "Edit": "Edit Race",
+      "EditEntity": "Edit Race \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "RaceSubcategory": "Race Subcategory",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "ethnicities": {
+    "management": {
+      "Search": "Search for ethnicity",
+      "New": "New Ethnicity",
+      "NewEthnicitySubcategory": "New Ethnicity Subcategory",
+      "Edit": "Edit Ethnicity",
+      "EditEntity": "Edit Ethnicity \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "EthnicitySubcategory": "Ethnicity Subcategory",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "preparations": {
+    "management": {
+      "Search": "Search for preparation",
+      "New": "New Preparation",
+      "NewPreparationDetail": "New Preparation Detail",
+      "Edit": "Edit Preparation",
+      "EditEntity": "Edit Preparation \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "PreparationDetail": "Preparation Detail",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "consversions": {
+    "management": {
+      "Search": "Search for consent version",
+      "New": "New Consent Version",
+      "NewRequest": "New Request",
+      "Edit": "Edit Consent Version",
+      "EditEntity": "Edit Consent Version \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 25 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  },
+  "consdenyreasons": {
+    "management": {
+      "Search": "Search for consent deny reason",
+      "New": "New Consent Deny Reason",
+      "NewRequest": "New Request",
+      "Edit": "Edit Consent Deny Reason",
+      "EditEntity": "Edit Consent Deny Reason \"{{name}}\"",
+      "Description": "Description"
+    },
+    "editor": {
+      "Description": "Description",
+      "DescriptionRequired": "Description is required (minimum of 2 and maximum of 50 characters)",
+      "Enabled": "Enabled",
+      "Close": "Close",
+      "Edit": "Edit",
+      "Cancel": "Cancel",
+      "Save": "Save",
+      "Saving": "Saving..."
+    }
+  }
+
+}
